@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Barber Shop — Barbier in Leuven &amp; Tervuren</title>
+  <meta name="description" content="Art Barber Shop: fades, tapers, baard en kids cuts in Leuven (Tessenstraat 1C) en Tervuren (Steenweg op Brussel 47). Dinsdag tot zondag open, ook zonder afspraak. Knippen €20.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Art Barber Shop — Leuven &amp; Tervuren">
+  <meta property="og:description" content="Twee zaken, één standaard. Strakke fades en verzorgde baarden, dinsdag tot zondag.">
+  <meta property="og:image" content="img/interieur.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111111'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='40' fill='%23c9a865'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org", "@type": "BarberShop", "name": "Art Barber Shop Leuven",
+      "image": "img/interieur.jpg", "telephone": "+32488069648", "priceRange": "€5–€30",
+      "address": {"@type": "PostalAddress","streetAddress": "Tessenstraat 1C","postalCode": "3000","addressLocality": "Leuven","addressCountry": "BE"},
+      "geo": {"@type": "GeoCoordinates","latitude": 50.881125,"longitude": 4.6933051},
+      "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens": "10:00","closes": "19:00"}],
+      "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.5","reviewCount": "124"},
+      "sameAs": ["https://www.instagram.com/artbarbershopleuven/", "https://www.tiktok.com/@artbarbershopleuven"]
+    },
+    {
+      "@context": "https://schema.org", "@type": "BarberShop", "name": "Art Barber Shop Tervuren",
+      "image": "img/gevel-tervuren.jpg", "telephone": "+32498663372", "priceRange": "€5–€30",
+      "address": {"@type": "PostalAddress","streetAddress": "Steenweg op Brussel 47","postalCode": "3080","addressLocality": "Tervuren","addressCountry": "BE"},
+      "geo": {"@type": "GeoCoordinates","latitude": 50.8246799,"longitude": 4.5097307},
+      "openingHoursSpecification": [{"@type": "OpeningHoursSpecification","dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens": "10:00","closes": "18:30"}],
+      "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.9","reviewCount": "63"}
+    }
+  ]
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="Art Barber Shop — naar boven">
+        <span class="brand__script">Art</span>
+        <span class="brand__stars" aria-hidden="true">★★★</span>
+        <span class="brand__sub">Barber Shop</span>
+      </a>
+      <nav class="nav__links" aria-label="Hoofdmenu">
+        <a href="#diensten">Prijslijst</a>
+        <a href="#werk">Werk</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#locaties">Vestigingen</a>
+      </nav>
+      <a href="#boeken" class="btn btn--gold btn--sm nav__cta">Boek nu</a>
+      <button class="nav__burger" id="burger" aria-label="Menu openen" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav>
+      <a href="#diensten">Prijslijst</a>
+      <a href="#werk">Werk</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#locaties">Vestigingen</a>
+      <a href="#boeken" class="btn btn--gold">Boek je plek</a>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hex"></div>
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Barbershop &nbsp;·&nbsp; Leuven &amp; Tervuren</p>
+          <h1 class="hero__title reveal">
+            <span>Fade.</span>
+            <span>Baard.</span>
+            <span class="script gold-text">Art.</span>
+          </h1>
+          <p class="hero__lead reveal">Al jaren dé barbier van de Tessenstraat in Leuven, en nu ook in hartje Tervuren. Strakke fades, verzorgde baarden en een nette afwerking, dinsdag tot zondag.</p>
+
+          <div class="hero__actions reveal">
+            <a href="#boeken" class="btn btn--gold">Maak een afspraak
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#diensten" class="btn btn--ghost">Bekijk de prijzen</a>
+          </div>
+
+          <div class="perks reveal">
+            <p class="walkin">Ook zonder afspraak welkom</p>
+            <p class="walkin walkin--card">Knippen vanaf €20</p>
+          </div>
+
+          <a class="rating reveal" href="https://www.google.com/maps/search/?api=1&query=Art+Barber+Shop+Tervuren" target="_blank" rel="noopener">
+            <span class="rating__score">4,9</span>
+            <span class="rating__meta">
+              <span class="stars" aria-label="5 sterren">★★★★★</span>
+              <span>63 reviews in Tervuren</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <figure class="card card--a"><img src="img/pompadour.jpg" alt=""></figure>
+          <figure class="card card--b"><img src="img/textured-fade.jpg" alt=""></figure>
+          <figure class="card card--c"><img src="img/skin-fade.jpg" alt=""></figure>
+          <div class="badge-open" id="heroStatus">
+            <span class="dot"></span><span class="badge-open__text">Di – Zo · Leuven &amp; Tervuren</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#marquee" class="scroll-hint" aria-label="Scroll naar beneden"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" id="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Skin fade</span><i>✦</i><span>Taper</span><i>✦</i><span>Haar &amp; baard</span><i>✦</i><span>Pompadour</span><i>✦</i><span>Zonder afspraak welkom</span><i>✦</i><span>Kids</span><i>✦</i><span>Leuven &amp; Tervuren</span><i>✦</i>
+        <span>Skin fade</span><i>✦</i><span>Taper</span><i>✦</i><span>Haar &amp; baard</span><i>✦</i><span>Pompadour</span><i>✦</i><span>Zonder afspraak welkom</span><i>✦</i><span>Kids</span><i>✦</i><span>Leuven &amp; Tervuren</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ OVER ============ -->
+    <section class="section about">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="img/werkplekken.jpg" alt="Werkplekken met spiegels en barberstoelen bij Art Barber Shop Tervuren" loading="lazy">
+          <img src="img/gevel-tervuren.jpg" alt="Gevel van Art Barber Shop 2 in Tervuren bij avond" loading="lazy" class="about__media-sm">
+        </div>
+        <div class="about__copy">
+          <p class="eyebrow reveal">Waarom Art Barber?</p>
+          <h2 class="h2 reveal">Vakwerk tot in de puntjes.<br><em class="gold-text">Twee zaken, één standaard.</em></h2>
+          <p class="reveal">Bij Art Barber denken we mee over je kapsel en geven we eerlijk advies over verzorging. Van een strakke skin fade tot een volle baard: we werken netjes, proper en met oog voor detail.</p>
+          <p class="reveal">Al jaren vind je ons aan de Tessenstraat in Leuven, en sinds kort ook aan de Steenweg op Brussel in Tervuren, met gouden barberstoelen en een gezellige lounge. Gewoon binnenlopen of vooraf je plek vastleggen.</p>
+
+          <dl class="stats reveal">
+            <div><dt>4,9<span>★</span></dt><dd>Tervuren</dd></div>
+            <div><dt>180+</dt><dd>Reviews</dd></div>
+            <div><dt>2</dt><dd>Vestigingen</dd></div>
+            <div><dt>6/7</dt><dd>Dagen open</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIENSTEN ============ -->
+    <section class="section services" id="diensten">
+      <div class="hex hex--faint" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Onze prijslijst</p>
+          <h2 class="h2 reveal">Kies je <em class="gold-text">behandeling</em></h2>
+        </header>
+
+        <!-- Prijzen overgenomen van de prijslijst op het raam in Tervuren -->
+        <div class="menu">
+          <div class="menu__col reveal">
+            <h3 class="menu__cat">Haar</h3>
+            <ul>
+              <li><div class="menu__row"><span>Haar</span><i></i><b>€20</b></div><p>Knippen met schaar en tondeuse: fade, taper of klassiek. Strak afgewerkt.</p></li>
+              <li><div class="menu__row"><span>Kinderen</span><i></i><b>€15</b></div><p>Een nette cut voor de jongste klanten.</p></li>
+              <li><div class="menu__row"><span>Wassen</span><i></i><b>€5</b></div><p>Een frisse wasbeurt erbij.</p></li>
+            </ul>
+          </div>
+          <div class="menu__col reveal">
+            <h3 class="menu__cat">Baard &amp; combo</h3>
+            <ul>
+              <li><div class="menu__row"><span>Baard</span><i></i><b>€10</b></div><p>Trimmen, in vorm brengen en strak afgelijnd.</p></li>
+              <li class="menu__featured"><div class="menu__row"><span>Haar en baard</span><i></i><b>€30</b></div><p>De volledige behandeling van haar en baard.</p><span class="tag">Compleet</span></li>
+            </ul>
+          </div>
+        </div>
+        <p class="menu__note reveal">Zonder afspraak welkom. Liever zeker van je plek? Boek hieronder via WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- ============ WERK ============ -->
+    <section class="section work" id="werk">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow reveal">Uit de stoel</p>
+            <h2 class="h2 reveal">Het <em class="gold-text">werk</em> spreekt</h2>
+          </div>
+          <a href="https://www.instagram.com/artbarbershopleuven/" target="_blank" rel="noopener" class="link-arrow reveal">
+            Volg @artbarbershopleuven
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </header>
+
+        <div class="gallery">
+          <button class="gallery__item g-tall reveal" data-src="img/pompadour.jpg" data-cap="Pompadour met skin fade"><img src="img/pompadour.jpg" alt="Pompadour met skin fade en baard" loading="lazy"><span>Pompadour</span></button>
+          <button class="gallery__item reveal" data-src="img/skin-fade.jpg" data-cap="Skin fade"><img src="img/skin-fade.jpg" alt="Korte skin fade" loading="lazy"><span>Skin fade</span></button>
+          <button class="gallery__item reveal" data-src="img/textured-fade.jpg" data-cap="Textured crop met fade en baard"><img src="img/textured-fade.jpg" alt="Textured crop met fade en baard" loading="lazy"><span>Textured fade</span></button>
+          <button class="gallery__item g-tall reveal" data-src="img/volle-baard.jpg" data-cap="Slick back met volle baard"><img src="img/volle-baard.jpg" alt="Slick back met volle, verzorgde baard" loading="lazy"><span>Volle baard</span></button>
+          <button class="gallery__item reveal" data-src="img/blonde-crop.jpg" data-cap="Blonde crop"><img src="img/blonde-crop.jpg" alt="Gebleekte korte crop met fade" loading="lazy"><span>Blonde crop</span></button>
+          <button class="gallery__item reveal" data-src="img/side-part-baard.jpg" data-cap="Side part met baard"><img src="img/side-part-baard.jpg" alt="Side part met fade en baard" loading="lazy"><span>Side part</span></button>
+          <button class="gallery__item g-wide reveal" data-src="img/interieur.jpg" data-cap="Art Barber Shop 2, Tervuren"><img src="img/interieur.jpg" alt="Interieur in Tervuren met gouden barberstoelen" loading="lazy"><span>Tervuren</span></button>
+          <button class="gallery__item g-wide reveal" data-src="img/lounge.jpg" data-cap="De lounge in Tervuren"><img src="img/lounge.jpg" alt="Lounge met lederen zetels" loading="lazy"><span>Lounge</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="reviews">
+      <div class="container reviews__grid">
+        <div class="reviews__score reveal">
+          <p class="eyebrow">Wat klanten zeggen</p>
+          <div class="big-score">4,9</div>
+          <div class="stars stars--lg" aria-label="5 sterren">★★★★★</div>
+          <p class="muted">Tervuren <strong>4,9 (63)</strong> · Leuven <strong>4,5 (124)</strong></p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Art+Barber+Shop+Tervuren" target="_blank" rel="noopener" class="link-arrow">Alle reviews bekijken
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+
+        <div class="quotes">
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Al jaren mijn kapper en maakt mij elke keer 10 jaar jonger!! Beste kapper ooit in mijn leven.”</p>
+            <footer><span class="avatar">R</span><span><strong>Riza D.</strong><small>Google review · Leuven</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Super vriendelijke eigenaar! Ik werd snel geholpen en het is zeer netjes geknipt. De zaak ziet er ook netjes uit.”</p>
+            <footer><span class="avatar">A</span><span><strong>Anton R.</strong><small>Google review · Leuven</small></span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Heel vriendelijke service, heel professioneel. Ik kom hier heel vaak en blijf ook terugkomen. Top prestaties!”</p>
+            <footer><span class="avatar">J</span><span><strong>Jojo L.</strong><small>Google review · Tervuren</small></span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BOEKEN ============ -->
+    <section class="section booking" id="boeken">
+      <div class="hex hex--faint" aria-hidden="true"></div>
+      <div class="container booking__grid">
+        <div class="booking__intro">
+          <p class="eyebrow reveal">Afspraak maken</p>
+          <h2 class="h2 reveal">Reserveer je <em class="gold-text">stoel</em></h2>
+          <p class="reveal">Kies je vestiging, dienst en moment. Je aanvraag gaat meteen via WhatsApp naar de zaak, en die bevestigt zo snel mogelijk.</p>
+          <ul class="checks reveal">
+            <li>Geen afspraak? Loop gewoon binnen</li>
+            <li>Geen account nodig</li>
+            <li>Bevestiging via WhatsApp</li>
+            <li><span>Liever bellen? Leuven&nbsp;<a href="tel:+32488069648">0488&nbsp;06&nbsp;96&nbsp;48</a> · Tervuren&nbsp;<a href="tel:+32498663372">0498&nbsp;66&nbsp;33&nbsp;72</a></span></li>
+          </ul>
+        </div>
+
+        <form class="book reveal" id="bookForm" novalidate>
+          <fieldset>
+            <legend>1. Vestiging</legend>
+            <div class="seg" role="radiogroup">
+              <label><input type="radio" name="loc" value="leuven" checked><span>Leuven<small>Tessenstraat 1C</small></span></label>
+              <label><input type="radio" name="loc" value="tervuren"><span>Tervuren<small>Steenweg op Brussel 47</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. Dienst</legend>
+            <select name="service" id="service" required>
+              <option value="Haar" selected>Haar — €20</option>
+              <option value="Haar en baard">Haar en baard — €30</option>
+              <option value="Baard">Baard — €10</option>
+              <option value="Kinderen">Kinderen — €15</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. Dag</legend>
+            <div class="days" id="days"></div>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. Tijdstip</legend>
+            <div class="slots" id="slots"></div>
+          </fieldset>
+
+          <fieldset class="row2">
+            <legend class="sr-only">5. Jouw gegevens</legend>
+            <label class="field"><span>Naam</span><input type="text" name="name" id="name" autocomplete="given-name" placeholder="Je voornaam" required></label>
+            <label class="field"><span>Opmerking <small>(optioneel)</small></span><input type="text" name="note" id="note" placeholder="bv. zelfde als vorige keer"></label>
+          </fieldset>
+
+          <div class="book__summary" id="summary" aria-live="polite">Kies een dag en tijdstip.</div>
+          <button type="submit" class="btn btn--gold btn--block">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="wa"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+            Verstuur via WhatsApp
+          </button>
+          <p class="book__err" id="bookErr" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ VESTIGINGEN ============ -->
+    <section class="section locations" id="locaties">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal">Onze vestigingen</p>
+          <h2 class="h2 reveal">Twee zaken, <em class="gold-text">één standaard</em></h2>
+        </header>
+
+        <div class="loc-grid">
+          <article class="loc reveal">
+            <div class="loc__map">
+              <iframe title="Kaart Art Barber Shop Leuven" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Art+Barber+Shop,+Tessenstraat+1C,+3000+Leuven&z=16&output=embed"></iframe>
+            </div>
+            <div class="loc__body">
+              <div class="loc__top">
+                <h3>Leuven</h3>
+                <span class="status" data-status="leuven"></span>
+              </div>
+              <p class="loc__addr">Tessenstraat 1C<br>3000 Leuven</p>
+              <ul class="hours" data-hours="leuven"></ul>
+              <div class="loc__actions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Art+Barber+Shop+Tessenstraat+1C+3000+Leuven" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Route</a>
+                <a href="tel:+32488069648" class="btn btn--gold btn--sm">0488 06 96 48</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="loc reveal">
+            <div class="loc__map">
+              <iframe title="Kaart Art Barber Shop Tervuren" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Art+Barber+Shop,+Steenweg+op+Brussel+47,+3080+Tervuren&z=16&output=embed"></iframe>
+            </div>
+            <div class="loc__body">
+              <div class="loc__top">
+                <h3>Tervuren</h3>
+                <span class="status" data-status="tervuren"></span>
+              </div>
+              <p class="loc__addr">Steenweg op Brussel 47<br>3080 Tervuren</p>
+              <ul class="hours" data-hours="tervuren"></ul>
+              <div class="loc__actions">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Art+Barber+Shop+Steenweg+op+Brussel+47+3080+Tervuren" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Route</a>
+                <a href="tel:+32498663372" class="btn btn--gold btn--sm">0498 66 33 72</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta">
+      <div class="cta__bg" aria-hidden="true"><img src="img/interieur.jpg" alt=""></div>
+      <div class="container cta__inner">
+        <h2 class="h2 reveal">Klaar voor een <em class="gold-text">frisse cut?</em></h2>
+        <p class="reveal">Loop gewoon binnen in Leuven of Tervuren, of boek vooraf je plek.</p>
+        <div class="hero__actions reveal">
+          <a href="#boeken" class="btn btn--gold">Boek nu</a>
+          <a href="https://www.instagram.com/artbarbershopleuven/" target="_blank" rel="noopener" class="btn btn--ghost">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#top" class="brand brand--lg">
+          <span class="brand__script">Art</span>
+          <span class="brand__stars" aria-hidden="true">★★★</span>
+          <span class="brand__sub">Barber Shop</span>
+        </a>
+        <p class="muted">Barbier in Leuven &amp; Tervuren.<br>Strakke fades, verzorgde baarden.</p>
+      </div>
+      <div>
+        <h4>Openingsuren</h4>
+        <p class="muted">Maandag — gesloten<br>Leuven — di–zo 10:00–19:00<br>Tervuren — di–zo 10:00–18:30</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p class="muted">Leuven · <a href="tel:+32488069648">0488 06 96 48</a><br>Tervuren · <a href="tel:+32498663372">0498 66 33 72</a></p>
+      </div>
+      <div>
+        <h4>Volg ons</h4>
+        <a class="social" href="https://www.instagram.com/artbarbershopleuven/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          Instagram
+        </a>
+        <a class="social" href="https://www.tiktok.com/@artbarbershopleuven" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg>
+          TikTok
+        </a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Art Barber Shop. Alle rechten voorbehouden.</span>
+      <a href="#top">Naar boven ↑</a>
+    </div>
+  </footer>
+
+  <!-- Mobiele boekbalk -->
+  <div class="mbar" id="mbar">
+    <a href="#locaties" class="mbar__call" aria-label="Bel Art Barber Shop (kies vestiging)">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+    </a>
+    <a href="#boeken" class="btn btn--gold btn--block">Boek je afspraak</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Foto vergroot">
+    <button class="lightbox__close" id="lbClose" aria-label="Sluiten">✕</button>
+    <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Vorige">‹</button>
+    <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+    <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Volgende">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
